@@ -18,16 +18,7 @@ A small static site for **negentropic.us**. It uses plain HTML, CSS, and a littl
 
 3. In the repository, open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/(root)`, then save.
 4. In **Settings → Pages**, enter `negentropic.us` under **Custom domain** and save. The root `CNAME` file also records this domain in the source.
-5. At your domain registrar, add these four **A** records for the apex/root host (`@`):
-
-   | Type | Host | Value |
-   | --- | --- | --- |
-   | A | @ | `185.199.108.153` |
-   | A | @ | `185.199.109.153` |
-   | A | @ | `185.199.110.153` |
-   | A | @ | `185.199.111.153` |
-
-   Remove conflicting apex A/AAAA/ALIAS/ANAME records. Optionally, add a `www` CNAME pointing to `YOUR-ACCOUNT.github.io` if you also want `www.negentropic.us` to redirect to the apex domain. Replace `YOUR-ACCOUNT` with your GitHub account name. Avoid wildcard DNS records.
+5. At your DNS provider, configure the apex/root host (`@`) using [GitHub's current DNS instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site). Use the records shown there for GitHub Pages and preserve records needed by any other services.
 6. After DNS and certificate provisioning finish, return to **Settings → Pages** and enable **Enforce HTTPS**. DNS changes and certificate issuance can take time.
 
 GitHub's current [custom-domain and DNS guidance](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) and [HTTPS guidance](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https) are the references for these settings.
