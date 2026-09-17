@@ -8,10 +8,10 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:5px}
 .skip-link:focus{top:1rem}
 .site-shell{max-width:1440px;margin:auto;padding:0 clamp(1.4rem,5vw,5rem)}
 .site-header{min-height:112px;display:flex;align-items:center;justify-content:space-between;gap:2rem;border-bottom:1px solid var(--line)}
-.wordmark{display:inline-flex;align-items:center;gap:.95rem;font-weight:650;letter-spacing:-.035em;font-size:1.05rem;text-decoration:none;white-space:nowrap}
-.wordmark-name{font-family:Rajdhani,ui-sans-serif,system-ui,sans-serif;font-weight:500;font-size:1.18rem;letter-spacing:.012em;color:var(--text)}
+.wordmark{display:inline-flex;align-items:center;gap:1.0925rem;font-weight:650;letter-spacing:-.035em;font-size:1.05rem;text-decoration:none;white-space:nowrap}
+.wordmark-name{font-family:Rajdhani,ui-sans-serif,system-ui,sans-serif;font-weight:500;font-size:1.357rem;letter-spacing:.012em;color:var(--text)}
 .wordmark-accent{color:#c9635d}
-.orbital-mark{display:block;width:30px;height:30px;flex:none}
+.orbital-mark{display:block;width:34.5px;height:34.5px;flex:none}
 .text-link:hover{color:var(--accent)}
 .hero{min-height:620px;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:4rem;padding:clamp(4rem,8vw,8rem) 0}
 .eyebrow,.section-index,.art-label{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;text-transform:uppercase;letter-spacing:.14em;font-size:.7rem}
