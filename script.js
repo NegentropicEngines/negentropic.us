@@ -1,6 +1,6 @@
 // Public link configuration. Set email to an address when contact is available.
 const LINKS = {
-  paypal: "https://paypal.me/NegentropicEngines",
+  paypal: "https://paypal.me/NegentropiEngines",
   email: null
 };
 
