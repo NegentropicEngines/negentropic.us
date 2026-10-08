@@ -1,0 +1,13 @@
+# Negentropic Engines
+# https://negentropic.us/
+#
+# Automated systems: machine-facing policy and information:
+# https://negentropic.us/agents.txt
+#
+# Commercial prospecting, contact harvesting, lead enrichment,
+# and unsolicited outreach are not welcome.
+#
+# Useful machines may proceed.
+
+User-agent: *
+Allow: /
